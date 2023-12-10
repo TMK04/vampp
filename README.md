@@ -28,6 +28,7 @@ pip install --upgrade pip setuptools wheel
 
 ```sh
 cp .env.example .env # then edit .env
+cp website/.env.example website/.env # then edit website/.env
 ```
 
 4. Download large files

@@ -1,3 +1,6 @@
 [submodule "CodeFormer"]
 	path = CodeFormer
 	url = https://github.com/sczhou/CodeFormer
+[submodule "website"]
+	path = website
+	url = https://github.com/TMK04/vampp-website.git
