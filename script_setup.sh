@@ -1,3 +1,3 @@
 # Setup
 
-pip install -r "$ROOT_DIR/requirements/setup.txt"
+pip install -r "$ROOT_DIR/server/requirements/setup.txt"

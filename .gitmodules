@@ -1,6 +1,3 @@
-[submodule "CodeFormer"]
-	path = CodeFormer
-	url = https://github.com/sczhou/CodeFormer
 [submodule "server"]
 	path = server
 	url = https://github.com/TMK04/vampp-server.git

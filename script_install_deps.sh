@@ -2,14 +2,9 @@
 
 . .env
 
-# Python
-
-pip install -r "$ROOT_DIR/requirements/install_deps.txt"
-
 # Server
 
-cd "$ROOT_DIR/server"
-pip install -r requirements.txt
+pip install -r "$ROOT_DIR/server/requirements/install_deps.txt"
 
 # Node
 
