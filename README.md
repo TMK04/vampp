@@ -32,7 +32,13 @@ cp server/.env.example server/.env # then edit server/.env
 cp website/.env.example website/.env # then edit website/.env
 ```
 
-4. Download large files
+4. Run setup script
+
+```sh
+./script_setup.sh
+```
+
+5. Download large files
 
 e.g.
 
@@ -43,7 +49,7 @@ e.g.
 ./script_download_large.sh
 ```
 
-5. Install dependencies
+6. Install dependencies
 
 Note: For Docker, skip [there](#docker).
 

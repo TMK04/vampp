@@ -20,3 +20,4 @@ pip install --upgrade pip setuptools wheel
 ## Setup
 
 ./script_setup.sh
+./script_install_deps.sh

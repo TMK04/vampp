@@ -1,4 +1,3 @@
-# All-in-one Setup
+# Setup
 
-./script_download_large.sh
-./script_install_deps.sh
+pip install -r "$ROOT_DIR/requirements/setup.txt"
