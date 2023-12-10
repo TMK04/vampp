@@ -17,10 +17,6 @@ git lfs install
 conda update -n base -c defaults conda -y
 pip install --upgrade pip setuptools wheel
 
-## Download Large
+## Setup
 
-./script_download_large.sh
-
-## Install deps
-
-./script_install_deps.sh
+./script_setup.sh
