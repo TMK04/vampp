@@ -4,7 +4,7 @@
 
 # Server
 
-pip install -r "$ROOT_DIR/server/requirements/install_deps.txt"
+ROOT_DIR="$ROOT_DIR/server" ./server/script_install_deps.sh
 
 # Website 
 
