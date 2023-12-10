@@ -1,5 +1,7 @@
 # Written for Paperspace Gradient
 
+. .env
+
 ## Base image
 
 apt update && apt upgrade -y
@@ -16,6 +18,14 @@ git lfs install
 
 conda update -n base -c defaults conda -y
 pip install --upgrade pip setuptools wheel
+
+## AWS
+
+. "$SCRIPT_AWS"
+
+## Huggingface
+
+. "$SCRIPT_HUGGINGFACE"
 
 ## Node
 
