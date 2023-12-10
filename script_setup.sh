@@ -4,4 +4,4 @@
 
 # Server
 
-pip install -r "$ROOT_DIR/server/requirements/setup.txt"
+ROOT_DIR="$ROOT_DIR/server" ./server/script_setup.sh
