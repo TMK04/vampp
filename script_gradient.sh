@@ -38,5 +38,6 @@ corepack prepare pnpm@latest --activate
 
 ## Setup
 
+chmod -R +x .
 ./script_setup.sh
 ./script_install_deps.sh
