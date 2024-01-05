@@ -40,6 +40,6 @@ corepack prepare pnpm@latest --activate
 
 ## Setup
 
-chmod -R +x .
+chmod -R +x "$ROOT_DIR/**/*.sh"
 ./script_setup.sh
 ./script_install_deps.sh
