@@ -18,8 +18,10 @@ git pull && git submodule update --init --recursive
 
 ## Python
 
-conda update -n base -c defaults conda -y
-pip install --upgrade pip setuptools wheel
+conda update -n base conda -y
+conda update -n base anaconda -y
+pip install --upgrade packaging pip setuptools wheel
+conda install cuda -c nvidia/label/cuda-11.8.0 -y
 
 ## AWS
 
@@ -40,6 +42,7 @@ corepack prepare pnpm@latest --activate
 
 ## Setup
 
+conda install 
 find "$ROOT_DIR" -iname \*.sh -print0 | xargs -r0 chmod +x
 ./script_setup.sh
 ./script_install_deps.sh
