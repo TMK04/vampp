@@ -5,8 +5,8 @@
 FROM nvcr.io/nvidia/rapidsai/notebooks:23.12-cuda11.8-py3.10
 
 RUN apt update && apt upgrade -y
-RUN apt-get install build-essential -y
-RUN apt-get install ffmpeg git p7zip-full -y
+RUN apt install build-essential -y
+RUN apt install ffmpeg git p7zip-full -y
 
 RUN conda update -n base -c defaults conda -y
 RUN pip install --upgrade pip setuptools wheel
@@ -14,7 +14,7 @@ RUN pip install --upgrade pip setuptools wheel
 ## Git
 
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash
-apt-get install git-lfs
+apt install git-lfs
 git lfs install
 
 ## Node

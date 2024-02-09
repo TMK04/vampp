@@ -5,13 +5,13 @@
 ## Base image
 
 apt update && apt upgrade -y
-apt-get install build-essential -y
-apt-get install ffmpeg git p7zip-full -y
+apt install build-essential -y
+apt install ffmpeg git p7zip-full -y
 
 ## Git
 
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash
-apt-get install git-lfs
+apt install git-lfs
 git lfs install
 
 git pull
