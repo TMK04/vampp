@@ -15,6 +15,7 @@ apt install git-lfs
 git lfs install
 
 git pull
+chmod +x $ROOT_DIR/*.sh
 ./script_submodules.sh
 
 ## Python
