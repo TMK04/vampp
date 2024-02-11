@@ -44,7 +44,5 @@ corepack prepare pnpm@latest --activate
 
 ## Setup
 
-conda install 
-find "$ROOT_DIR" -iname \*.sh -print0 | xargs -r0 chmod +x
 ./script_setup.sh
 ./script_install_deps.sh
