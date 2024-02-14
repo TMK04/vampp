@@ -25,10 +25,6 @@ conda update -n base anaconda -y
 pip install --upgrade packaging pip setuptools wheel
 conda install cuda -c nvidia/label/cuda-11.8.0 -y
 
-## AWS
-
-. "$SCRIPT_AWS"
-
 ## Huggingface
 
 . "$SCRIPT_HUGGINGFACE"
