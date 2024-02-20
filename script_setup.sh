@@ -19,8 +19,3 @@ nvm install 20
 nvm use 20
 corepack enable
 corepack prepare pnpm@latest --activate
-
-## Setup
-
-./script_setup.sh
-./script_install_deps.sh
