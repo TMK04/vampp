@@ -160,5 +160,5 @@ cython_debug/
 #.idea/
 
 .vscode/
-out/*
-!out/.gitkeep
+storage/*
+!storage/.gitkeep
