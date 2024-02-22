@@ -162,3 +162,6 @@ cython_debug/
 .vscode/
 storage/*
 !storage/.gitkeep
+!storage/out
+storage/out/*
+!storage/out/.gitkeep
